@@ -1,0 +1,220 @@
+h1, h2{
+    font-family: elza-text, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40pt;
+}
+
+h3{
+    font-family: anonymous-pro, monospace;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 26pt;
+    margin-bottom: 40px;
+}
+
+h4{
+    font-family: anonymous-pro, monospace;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18pt;
+}
+
+a, button, .nav-link, .btn{
+    font-family: elza-text, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11pt;
+    text-transform: uppercase;
+}
+
+a, .nav-link{
+    color: #F9F9F9;
+}
+
+p{
+    font-family: anonymous-pro, monospace;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14pt;
+    hyphens: auto; 
+	text-align: justify;
+}
+
+.linktext{
+    font-family: anonymous-pro, monospace;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14pt;
+    hyphens: auto; 
+	text-align: justify;
+    text-transform: none;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+
+::-webkit-scrollbar-track {
+    box-shadow: none; 
+    border-radius: 10px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #FF568B; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #FF568B; 
+}
+
+::selection{
+    background-color: #FF568B;
+}
+
+.btn:hover {
+    color: #ff5688;
+    background-color: white;
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+
+
+.btn{
+    background-color: #FF568B;
+    border: none;
+    height: 50px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.firstview{
+    height: 100vh;
+}
+
+nav{
+    height: 8%;
+}
+
+.hero{
+    height: 92%;
+}
+
+body{
+    background-color: #3D3B8E;
+    color: #F9F9F9;
+}
+
+.aboutme{
+    height: 100vh;
+}
+
+.nav-link{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #FF568B;
+}
+
+nav, .bg-body-tertiary{
+    background-color: #3D3B8E!important;
+}
+
+.aboutmeright{
+    background-image: url("../data/images/aboutme_pink.png");
+    height: 100%;
+    background-position: 50% 80%;
+    background-size: cover;
+}
+
+.aboutmetext{
+    padding-right: 400px;
+}
+
+.lowerchallengeimage1{
+    background-image: url("../data/images/challenge00/1.jpg");
+    height: 400px;
+    background-position: center 20%;
+    background-size: cover;
+}
+
+.lowerchallengeimage2{
+    background-image: url("../data/images/challenge00/2.jpg");
+    height: 400px;
+    background-position: center 30%;
+    background-size: cover;
+}
+
+.challengetext{
+    font-size: 16pt;
+    padding-right: 200px;
+}
+
+.upperrightchallenge{
+    height: 100%;
+}
+
+.nopaddingright{
+    padding-right: 0px;
+}
+
+.lowerchallengeimage3{
+    background-image: url("../data/images/challenge01/1.jpg");
+    height: 400px;
+    background-position: center 100%;
+    background-size: cover;
+}
+
+.lowerchallengeimage4{
+    background-image: url("../data/images/challenge01/2.jpg");
+    height: 400px;
+    background-position: center 100%;
+    background-size: cover;
+}
+
+.chall{
+    margin-bottom: 300px;
+}
+
+.lowerchallengeimage5{
+    background-image: url("../data/images/challenge02/1.png");
+    height: 400px;
+    background-position: center 50%;
+    background-size: cover;
+}
+
+.lowerchallengeimage6{
+    background-image: url("../data/images/challenge02/2.png");
+    height: 400px;
+    background-position: center 50%;
+    background-size: cover;
+}
+
+.lowerchallengeimage7{
+    background-image: url("../data/images/challenge03/1.png");
+    height: 400px;
+    background-position: center 50%;
+    background-size: 80%;
+}
+
+.lowerchallengeimage8{
+    background-image: url("../data/images/challenge04/1.png");
+    height: 400px;
+    background-position: center 50%;
+    background-size: 80%;
+}
